@@ -35,13 +35,6 @@ El archivo requirements.txt incluye paquetes como:
 - wordcloud
 - adjustText
 
-Además, es necesario descargar e instalar el modelo de spaCy en inglés:
-
-```python
-import spacy
-spacy.cli.download("en_core_web_sm")
-```
-
 ## Ejecución en Google Colab
 
 Si utilizas Google Colab, sigue estos pasos:
